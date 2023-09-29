@@ -1,0 +1,16 @@
+Thanks for post. My main interest was drowed to your explanation of image processing using array.
+The NumPy, a library use for numerical computations, can be use to manipulate images,
+we can manipulate image using the NumPy array operation by drawing, cropping, filtering, color manioulation, etc. 
+
+Theis is an example of an array to arrange high school students photos
+image data are stored in a structured array. 
+Structured array is used for gropping different data of different types and sizes. 
+
+a Numpy structured array is created to store high school students information along with the paths to their photos
+
+
+import numpy as np
+num_students = 5
+image_size (3, 3)
+students_photos = np.random.randint(0, 256, size=(num_students, *image_size), dtype=np.uint8)
+print(students_photos)
